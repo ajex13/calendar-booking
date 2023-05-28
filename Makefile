@@ -45,4 +45,4 @@ db_nuke: ## nukes postgres database container
 	docker rm --force $(DB_CONTAINER_NAME)
 
 db_logs: ## logs db server
-	docker logs -f pnp-db
+	docker logs -f cal-book-db
